@@ -1,0 +1,136 @@
+body
+{
+    background-color: whitesmoke;
+}    
+
+#page-header{
+    color: white; 
+    height: 150px ;
+    margin-bottom: 15px; 
+}
+
+#header-logo
+{
+    height: 60%;
+    margin-bottom: 5px;
+    background-color: rgb(46, 45, 45);  
+}
+
+.header-img
+{
+    padding-left: 5px;
+    width: 100px;
+    height: 100%;
+} 
+
+nav
+{
+    background-color: rgb(66, 172, 149)  ;   
+    height: 40%;
+    overflow: hidden;
+}
+
+.nav-content
+{
+    color:black;
+    height: 100%;
+    width: 24.85%;
+    float: left;
+    text-align: center;
+    padding: 18px 0px 0px 0px;
+    border: 1px solid white;
+    text-decoration: none;
+    /* margin-left: 0.5px; */
+}
+
+.nav-content:hover , .menu:hover
+{
+    background-color: rgb(190, 189, 189);
+    color: black;
+}
+
+.header-search
+{
+    float: right;
+    padding: 25px 20px 20px 0px;
+}
+
+.header-search input[type=text]
+{
+    width: 250px;
+    height: 30px;
+    background-color:beige;
+    border: 2px solid rgb(66, 172, 149);
+    border-radius: 5px;
+}
+
+#page-footer
+{
+    color: white; 
+    background-color: rgb(46, 45, 45);
+    height: 100px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+#middleContainer
+{
+    background-color: white;
+    height: 800px;
+    overflow: hidden;
+} 
+
+#asideBox1 , #mainContentSection, #asideBox2
+{
+    float: left;
+    /* background-color: brown; */
+}
+
+#asideBox1 , #asideBox2
+{
+    width: 14.6%;
+    height: 100%;
+}
+
+#mainContentSection
+{
+    width: 70.05%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#leftSideBarMenu, #rightSideBarMenu
+{
+    list-style-type:none;
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+    background-color: rgb(2, 81, 105);
+}
+
+.menu
+{
+    height: 10%;
+    width: 100%;
+    padding: 20px 60px 10px 60px;
+    color: white;
+    border: 1px;
+    border-color: white;
+    border-style: ridge;
+
+    box-sizing: border-box;
+
+}
+
+.postImg
+{
+    width: 32%;
+    height: 50%;
+    padding: 4.5px;
+}
+
+
+
+
